@@ -21,7 +21,8 @@ static {
 
 @BeforeMethod
 public void preCondition()
-{
+{	//user this if your using firefox browser and you want tto download a file
+	//GenericUtils.fileDownloadInFireFoxusingProfile(key,value);
 	driver = new ChromeDriver();
 	
 	driver.manage().window().maximize();
