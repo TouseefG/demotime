@@ -212,8 +212,8 @@ public class GenericUtils extends BestTest{
 	
 	public static void fileDownloadInFireFoxusingRobotClass() throws AWTException, InterruptedException
 	{
-			
-			Robot r = new Robot();
+		
+		Robot r = new Robot();
 		
 		//to paste the path of the file
 		
@@ -228,7 +228,7 @@ public class GenericUtils extends BestTest{
 		r.keyPress(KeyEvent.VK_ENTER);
 		r.keyRelease(KeyEvent.VK_ENTER);
 		
-		
+					
 	}
 	
 	//widows popup
